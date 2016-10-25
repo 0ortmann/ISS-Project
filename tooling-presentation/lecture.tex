@@ -145,7 +145,12 @@
 
 \begin{frame}{\insertsection}
 	\fontsize{20pt}{20pt}\selectfont
-	Wahl der DB abhängig von Art der Informationen, die gespeichert werden sollen
+	Wahl der DB abhängig von Art der Informationen, die gespeichert werden sollen\\
+	\vspace{2em}
+	\fontsize{14pt}{14pt}\selectfont
+	Diverse hochskalierbare DBs stehen zur Verfügung, Boom der letzten Jahre enorm!\\
+	\vspace{1em}
+	Beschränkung auf zwei „Monitoring-erprobte”
 \end{frame}
 
 
@@ -181,7 +186,9 @@
 		\item ES-Query Visualisierung
 		\item Haupt-Usecase: Analyse, etwa Korrelation von Logs
 	\end{itemize}
-	\includegraphics[width=\linewidth,page=1]{img/kibana.png}
+	\includegraphics[width=0.7\linewidth,page=1]{img/kibana.png}\\
+	\fontsize{4pt}{7.2}\selectfont
+	\textit{https://www.elastic.co/assets/bltd813198e87d94819/Screen-Shot-2014-12-15-at-12.28.30-PM.png}
 \end{frame}
 
 \begin{frame}{\insertsection\ -- Grafana}
@@ -190,7 +197,9 @@
 		\item Zeit-Serien-Metrik Visualisierung
 		\item Visualisierung, nicht Analyse!
 	\end{itemize}
-	\includegraphics[width=\linewidth,page=1]{img/grafana.png}
+	\includegraphics[width=0.8\linewidth,page=1]{img/grafana.png}\\
+	\fontsize{4pt}{7.2}\selectfont
+	\textit{http://grafana.org/assets/img/blog/v3.0/zabbix\_app.png}
 \end{frame}
 
 \begin{frame}{\insertsection\ -- Chronograf}
@@ -199,13 +208,15 @@
 		\item Etwas neuer / netter im Umgang als Grafana
 		\item super integriert mit InfluxDB, da gleicher Hersteller
 	\end{itemize}
-	\includegraphics[width=0.8\linewidth,page=1]{img/chronograf.png}
+	\includegraphics[width=0.8\linewidth,page=1]{img/chronograf.png}\\
+	\fontsize{4pt}{7.2}\selectfont
+	\textit{https://docs.influxdata.com/img/chronograf/v0.11/sample-dashboard.png}
 \end{frame}
 
 \section{Stacks}
 
 \begin{frame}{\insertsection\ -- ELK}
-	\underline{ELK:} Elasticsearch -- Logstash -- Kibana
+	\underline{ELK:} Elasticsearch -- Logstash -- Kibana\\
 	Volltextdurchsuchbarkeit -- Logprocessing \& Shipping -- Query Visualisierung
 	\includegraphics[width=0.8\linewidth,page=1]{img/ELK-stack.jpg}\\
 	\fontsize{4pt}{7.2}\selectfont
